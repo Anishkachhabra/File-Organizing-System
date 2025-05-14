@@ -57,6 +57,7 @@ fi
 # ============================
 # ORGANIZATION MODE
 # ============================
+
 dialog --msgbox "Press OK to start organizing..." 6 40
 
 choice=$(dialog --clear --stdout --title "File Organizer - Choose Category" \
@@ -118,6 +119,7 @@ get_folder_for_ext() {
 }
 
 total_moved=0
+
 for file in "$DIRECTORY"/*; do
     [ -f "$file" ] || continue
     full_path=$(realpath "$file")
