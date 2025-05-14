@@ -1,12 +1,4 @@
 #!/bin/bash
-banner file
-banner organizing
-banner system
-
-#press any key to continue
-echo "Press any key to continue..."
-read -n 1 -s
-
 # MySQL config file
 MYSQL_CONFIG_FILE="$HOME/.testdb.cnf"
 MYSQL_TABLE="files"
