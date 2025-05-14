@@ -1,5 +1,5 @@
 #!/bin/bash
-# MySQL config file
+
 MYSQL_CONFIG_FILE="$HOME/.testdb.cnf"
 MYSQL_TABLE="files"
 LOGFILE="/tmp/file_organizer_log.txt"
